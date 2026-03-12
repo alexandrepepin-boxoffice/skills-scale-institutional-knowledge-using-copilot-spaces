@@ -22,6 +22,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- See [Definition of Done & Acceptance Criteria](octoacme-definition-of-done-and-acceptance-criteria.md) for the full DoD checklist and AC writing guidelines
 
 ## Reporting & Metrics
 - Track velocity and burndown

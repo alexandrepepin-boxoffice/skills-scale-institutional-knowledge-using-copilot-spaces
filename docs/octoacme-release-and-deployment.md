@@ -9,11 +9,12 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Major: significant functionality or breaking changes
 
 ## Pre-release requirements
-- All acceptance criteria met and PRs merged
+- All acceptance criteria met and PRs merged (see [DoD & Acceptance Criteria](octoacme-definition-of-done-and-acceptance-criteria.md))
 - Passing CI and security scans
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- Release Manager sign-off obtained (see [Release Manager role](octoacme-roles-and-personas.md#release-manager))
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)

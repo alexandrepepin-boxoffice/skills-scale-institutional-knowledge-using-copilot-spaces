@@ -17,15 +17,21 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- QA Engineer: validates quality and acceptance criteria, gates releases.
+- UX Designer: shapes user experience and interface design.
+- DevOps / Platform Engineer: manages CI/CD pipelines, infrastructure, and deployment tooling.
+- Security Lead: embeds security throughout the lifecycle and owns incident response.
+- Release Manager: coordinates release scheduling, logistics, and stakeholder communication.
+- Stakeholders / Sponsor: provide business inputs, approvals, and escalation authority.
+
+See [OctoAcme Roles & Personas](octoacme-roles-and-personas.md) for full role definitions, responsibilities, and interaction guides.
 
 ## Key Artifacts
 - Project Charter / One-pager
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
+- [Acceptance Criteria & Definition of Done](octoacme-definition-of-done-and-acceptance-criteria.md)
+- [RAID Log](octoacme-raids-log-template.md) (Risks, Assumptions, Issues, Dependencies)
 - Retrospective notes and action items
 
 ## Lifecycle (high-level)
@@ -44,3 +50,6 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Use the [Kickoff Checklist](octoacme-kickoff-checklist.md) to prepare for and run project kickoff meetings.
+- Use the [RAID Log Template](octoacme-raids-log-template.md) to track Risks, Assumptions, Issues, and Dependencies.
+- Use the [Definition of Done & Acceptance Criteria](octoacme-definition-of-done-and-acceptance-criteria.md) guide to ensure consistent quality standards.
