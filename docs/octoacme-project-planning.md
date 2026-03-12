@@ -33,11 +33,13 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 ## Risk & Dependency Management
 - Capture in Risk Register:
   - ID, Description, Impact, Probability, Owner, Mitigation
+- Use the [RAID Log Template](octoacme-raids-log-template.md) to track Risks, Assumptions, Issues, and Dependencies in one place.
 - Mark cross-team dependencies in the project board and escalate during weekly syncs
 
 ## Planning Checklist
-- [ ] Project kickoff held
+- [ ] Project kickoff held (see [Kickoff Checklist](octoacme-kickoff-checklist.md))
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
+- [ ] Definition of Done documented (see [DoD & Acceptance Criteria](octoacme-definition-of-done-and-acceptance-criteria.md))
 - [ ] Initial test plan / QA approach drafted
+- [ ] RAID log created (see [RAID Log Template](octoacme-raids-log-template.md))
